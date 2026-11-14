@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Research projects in extragalactic astrophysics, AGN variability, and cosmology by Diego Martínez Collipal.">
+    <title>Research | Diego Martínez Collipal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="page-with-bg">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Diego Martínez Collipal</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="research.html" class="active">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="CV.pdf" target="_blank" rel="noopener">CV (PDF)</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="content-section">
+            <div class="container main-card">
+                <header class="section-header">
+                    <h2>Research Projects & Proposals</h2>
+                </header>
+
+                <!-- ==============================================
+                     PROYECTO 1: VARIABILIDAD EN AGNs (ZTF / CL-AGNs)
+                     ============================================== -->
+                <article class="research-project">
+                    <div class="project-grid">
+                        <div class="project-text">
+                            <span class="project-badge">AGN Variability & Time-Domain Surveys</span>
+                            <h3>Understanding AGN variability: A metric-based variability pipeline</h3>
+                            <p>
+                                We work on the development of a Python-based pipeline for the systematic computation 
+                                and analysis of variability metrics from AGN light curves.
+                                We explore the potential uses of our pipeline to identify distinct variability behaviors  
+                                by characterizing ~14,000 AGN light curves from the Zwicky Transient Facility (ZTF).
+                                We assessed the potential uses of metrics to identify extreme variability events,
+                                and explored their use for clustering analysis in UMAP.
+                            </p>
+                            <p>
+                                The metric pipeline intends to be a useful tool to characterize the diversity of AGN variability behaviors
+                                and identify promising science cases for follow-up. Its preliminary use has motivated the preparation of an observing proposals to confirm new CL-AGN events. 
+                            </p>
+                            <div class="project-actions">
+                                <span class="badge-status"><i class="fa-solid fa-hourglass-half"></i> Finishing manuscript</span>
+
+                                <a href="https://doi.org/10.3847/2515-5172/ae6648" target="_blank" rel="noopener" class="academic-btn">
+                                    <i class="fa-solid fa-file-lines"></i> Related Research Note (RNAAS)
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-media">
+                            <figure class="research-fig">
+                                <!-- Reemplaza 'fig_variability.png' por tu figura técnica -->
+                                <img src="agn_var.png" alt="AGN variability parameter space and light curves" class="research-img">
+                            </figure>
+                        </div>
+                    </div>
+                </article>
+
+                <hr class="project-divider">
+
+                <!-- ==============================================
+                     PROYECTO 2: UV Fe III & QUASAR MAIN SEQUENCE
+                     ============================================== -->
+                <article class="research-project">
+                    <div class="project-grid reverse-layout">
+                        <div class="project-text">
+                            <span class="project-badge">Spectroscopy & BLR Physics</span>
+                            <h3>The UV Fe III Emission along the Quasar Main Sequence</h3>
+                            <p>
+                                The Quasar Main Sequence also known as Eigenvector 1 organizes quasar diversity, analog to the H-R diagram for stars.
+                                This empirical diagram is constructed from the optical emissions of Hβ and Fe II, and primarily driven by the Eddington ratio.
+                                The necessity for optical tracers has limited the application of this framework to low-z objects.   
+                            </p>
+                            <p>
+                                In this work, we explored the use of the UV emissions of Fe III and the 1900 Å blend as potential new tracers of the Quasar main sequence.
+                                Aiming to develop a new framework for the study of this scheme at high-z.  
+                                We combined multi-component spectroscopic fittings with CLOUDY photoionization simulations to better characterize the behavior of the Fe III multiplets along the main sequence.
+                            </p>
+                            <div class="project-actions">
+                                <a href="https://arxiv.org/abs/2610.33339" target="_blank" rel="noopener" class="academic-btn">
+                                    <i class="fa-solid fa-file-pdf"></i> A&A Preprint
+                                </a>
+                                <a href="https://arxiv.org/abs/2609.12333" target="_blank" rel="noopener" class="academic-btn">
+                                    <i class="fa-solid fa-file-pdf"></i> RMxAA conference proceeding
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-media">
+                            <figure class="research-fig">
+                                <!-- Reemplaza 'fig_feiii.png' por tu ajuste espectral -->
+                                <img src="FeIII.jpg" alt="UV spectrum multi-component decomposition highlighting Fe III" class="research-img">
+                            </figure>
+                        </div>
+                    </div>
+                </article>
+
+                <hr class="project-divider">
+
+                <!-- ==============================================
+                     PROYECTO 3: COSMOLOGÍA CON CUÁSARES SUPER-EDDINGTON
+                     ============================================== -->
+                <article class="research-project">
+                    <div class="project-grid">
+                        <div class="project-text">
+                            <span class="project-badge">Quasars as Cosmological probes</span>
+                            <h3>Characterizing the cosmological expansion with quasars until z ~ 7</h3>
+                            <p>
+                                In this work, we explore the use of highly accreting quasars as cosmological standard candles. 
+                                The well-defined properties of Quasars accreting close to the Eddington limit (xA Quasars) has motivated their use as standard candles for Cosmological studies.
+                                In this framework, the Quasar luminosity can be estimated from the FWHM of virialized broad emission lines.
+                            <p>   
+                                We compiled spectroscopic measurements for ~300 xA quasars, covering a redshift range between 0.01 &lt; z &lt; 7.64, and constrained
+                                cosmological parameters using the Bayesian inference code Cobaya.
+                            </p>
+                            <div class="project-actions">
+                                <span class="badge-status"><i class="fa-solid fa-hourglass-half"></i> Manuscript in Preparation</span>
+                            </div>
+                        </div>
+                        <div class="project-media">
+                            <figure class="research-fig">
+                                <!-- Reemplaza 'fig_cosmology.png' por tu Hubble diagram o contornos MCMC -->
+                                <img src="quasar.jfif" alt="Hubble diagram with high-accretion quasars up to z ~ 7.6" class="research-img">
+                                <figcaption>This guy is part of our sample. Credit: NOIRLab/NSF/AURA/J. da Silva</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ==============================================
+                     SECCIÓN: PROPUESTAS Y TIEMPO DE OBSERVACIÓN
+                     ============================================== -->
+                <section class="proposals-section">
+                    <header class="section-header" style="margin-top: 3.5rem;">
+                        <h3>Observing Proposals</h3>
+                        <p class="subtitle">Experience as Principal Investigator (PI) and Co-Investigator (Co-I)</p>
+                    </header>
+
+                    <div class="proposals-grid">
+                        <div class="proposal-card">
+                            <div class="proposal-header">
+                                <span class="role-badge pi">PI</span>
+                                <span class="facility-badge">Gemini North (Under review)</span>
+                            </div>
+                            <h4>Probing Photometrically Selected CL-AGN Candidates: A New Selection Method for the LSST Era</h4>
+                            <p class="proposal-meta"><strong>Semester:</strong> 2027A &bull; <strong>Instrument:</strong> GMOS</p>
+                        </div>
+
+                        <div class="proposal-card">
+                            <div class="proposal-header">
+                                <span class="role-badge pi">PI</span>
+                                <span class="facility-badge">SOAR (Under review)</span>
+                            </div>
+                            <h4>Probing Photometrically Selected CL-AGN Candidates: A New Selection Method for the LSST Era</h4>
+                            <p class="proposal-meta"><strong>Semester:</strong> 2027A &bull; <strong>Instrument:</strong> Goodman</p>
+                        </div>
+
+                        <div class="proposal-card">
+                            <div class="proposal-header">
+                                <span class="role-badge coi">Co-I</span>
+                                <span class="facility-badge">IRTF (Under review)</span>
+                            </div>
+                            <h4>Probing Photometrically Selected CL-AGN Candidates with SpeX Near-Infrared Spectroscopy: A New Selection Method for the LSST Era</h4>
+                            <p class="proposal-meta"><strong>Semester:</strong> 2027A &bull; <strong>Instrument:</strong> SpeX</p>
+                        </div>
+
+
+                        <div class="proposal-card">
+                            <div class="proposal-header">
+                                <span class="role-badge coi">Co-I</span>
+                                <span class="facility-badge">Magellan (Under review)</span>
+                            </div>
+                            <h4>Near-Infrared Diagnostics in Bright AGNs &amp; VLTI/GRAVITY+ Targets</h4>
+                            <p class="proposal-meta"><strong>Semester:</strong> 2027A &bull; <strong>Instruments:</strong> FIRE</p>
+                        </div>
+
+
+                        <div class="proposal-card">
+                            <div class="proposal-header">
+                                <span class="role-badge coi">Co-I</span>
+                                <span class="facility-badge accepted">Gemini North (Accepted)</span>
+                            </div>
+                            <h4>Probing the Binary Nature of the AGN Mrk 841: A Phase-Resolved Spectroscopic Experiment</h4>
+                            <p class="proposal-meta"><strong>Program:</strong> Fast Turnaround 2026A &bull; <strong>Instrument:</strong> GMOS Spectroscopy</p>
+    
+                             <!-- Enlace a la propuesta o ID del programa -->
+                        <div class="proposal-actions" style="margin-top: 1rem;">
+                            <a href="https://archive.gemini.edu/programinfo/GN-2026A-FT-109" target="_blank" rel="noopener" class="academic-btn">
+                                 <i class="fa-solid fa-arrow-up-right-from-square"></i> Program
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Diego Martínez Collipal. Built for open science and academic research.</p>
+        </div>
+    </footer>
+</body>
+</html>
